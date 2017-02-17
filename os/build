@@ -1,0 +1,7 @@
+#!/bin/bash
+
+oc new-app php~./src --name=phpuk
+oc start-build phpuk --from-dir=./src/
+
+
+# https://github.com/marekjelen/php-sample.git

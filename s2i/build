@@ -1,0 +1,3 @@
+#!/bin/bash
+
+s2i build ./src centos/php-70-centos7 phpuk
